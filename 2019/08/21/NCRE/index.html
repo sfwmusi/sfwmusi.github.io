@@ -14,7 +14,7 @@
 <meta property="og:description" content="NCRE三级网络技术笔记总结">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://yoursite.com/2019/08/21/NCRE/1.png">
-<meta property="og:updated_time" content="2019-08-21T13:56:48.593Z">
+<meta property="og:updated_time" content="2019-09-02T14:08:52.751Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="NCRE">
 <meta name="twitter:description" content="NCRE三级网络技术笔记总结">
@@ -267,7 +267,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">231字</span>
+        <span class="post-count">406字</span>
       </span>
     </span>
 
@@ -329,16 +329,26 @@
 </ul>
 </li>
 <li>广域网 更大，覆盖更远（广域网不一定是Internet）</li>
+<li>核心层（高速数据交换，提供路由服务） 汇聚层（路由与流量汇聚） 接入层（用户接入与本地流量控制）</li>
 </ul>
 </li>
 </ol>
 </blockquote>
 <blockquote>
 <ol start="2">
-<li>中小型网络总体设计与规划</li>
+<li>中小型网络总体设计与规划<ul>
+<li>光以太网：以太网和DWDM  按需分配带宽，认证与授权，支持MPLS，计费，适用用户扩展 99.999%</li>
+<li>弹性分组环技术，RPR双环结构（内环逆时针，外环顺时针），最大长度100km，自愈环功能（50ms隔离，恢复），<strong>时分</strong>多路复用，SRP公平算法</li>
+</ul>
+</li>
 <li>局域网技术</li>
 <li>无线局域网技术</li>
-<li>网络管理技术（综合题）</li>
+<li>网络管理技术（综合题）<ul>
+<li>带内管理 汇聚层以下，传统的电信网络DCN和PSTN</li>
+<li>带外管理 汇聚层及以上，利用IP网络协议，SNMP</li>
+<li>QoS 资源预留RSVP，区分服务DiffServ，多协议标记交换MPLS</li>
+</ul>
+</li>
 </ol>
 </blockquote>
 <hr>
@@ -400,7 +410,7 @@
         <p><span>本文标题:</span><a href="/2019/08/21/NCRE/">NCRE</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 sfwmusi 的个人博客">sfwmusi</a></p>
         <p><span>发布时间:</span>2019年08月21日 - 15时09分</p>
-        <p><span>最后更新:</span>2019年08月21日 - 21时56分</p>
+        <p><span>最后更新:</span>2019年09月02日 - 22时08分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2019/08/21/NCRE/" title="NCRE">http://yoursite.com/2019/08/21/NCRE/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/08/21/NCRE/　　作者: sfwmusi" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -415,6 +425,15 @@
 
 
 <nav id="article-nav">
+  
+    <a href="/2019/09/01/deep-learning/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          deep learning
+        
+      </div>
+    </a>
   
   
     <a href="/2019/08/15/my-first-blog/" id="article-nav-older" class="article-nav-link-wrap">
@@ -495,7 +514,9 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/2019/09/01/deep-learning/" title="上一篇: deep learning">
+                <i class="fa fa-angle-left"></i>
+            </a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
@@ -504,7 +525,7 @@
             </a>
         
     </div>
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/08/21/NCRE/">NCRE</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/15/my-first-blog/">my-first-blog</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/15/hello-world/">Hello World</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/09/01/deep-learning/">deep learning</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/21/NCRE/">NCRE</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/15/my-first-blog/">my-first-blog</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/08/15/hello-world/">Hello World</a></li></ul>
     <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
     <script>
         $(".post-list").addClass("toc-article");
@@ -563,7 +584,7 @@
         
     </div>
 	<i class="fas fa-chart-area"></i>
-		<span class="post-count">字数统计：323
+		<span class="post-count">字数统计：498
 		</span>
 		
 	<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>

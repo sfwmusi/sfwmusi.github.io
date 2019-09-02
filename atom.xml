@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-08-21T13:56:48.593Z</updated>
+  <updated>2019-09-01T14:46:47.531Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>deep learning</title>
+    <link href="http://yoursite.com/2019/09/01/deep-learning/"/>
+    <id>http://yoursite.com/2019/09/01/deep-learning/</id>
+    <published>2019-09-01T07:49:35.000Z</published>
+    <updated>2019-09-01T14:46:47.531Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>NCRE</title>
     <link href="http://yoursite.com/2019/08/21/NCRE/"/>
     <id>http://yoursite.com/2019/08/21/NCRE/</id>
     <published>2019-08-21T07:09:38.000Z</published>
-    <updated>2019-08-21T13:56:48.593Z</updated>
+    <updated>2019-09-02T14:08:52.751Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="NCRE三级网络技术"><a href="#NCRE三级网络技术" class="headerlink" title="NCRE三级网络技术"></a>NCRE三级网络技术</h1><p>笔记总结</p><a id="more"></a><hr><h2 id="重点："><a href="#重点：" class="headerlink" title="重点："></a>重点：</h2><blockquote><ol><li><strong>IP地址规划和设计方法</strong></li><li><strong>路由设计基础</strong></li><li><strong>交换机及其配置</strong></li><li><strong>路由器及其配置</strong></li><li><strong>计算机网络信息服务系统的安装与配置</strong></li><li><strong>网络安全技术（防火墙和入侵检测技术</strong></li></ol></blockquote><hr><h2 id="其他："><a href="#其他：" class="headerlink" title="其他："></a>其他：</h2><blockquote><ol><li>网络系统结构与设计的基本原则<ul><li>局域网LAN      <ul><li>有限，高数据传输效率（10Mbps-10Gbps），易于建立</li><li>分为共享式和交换式或有线与无线</li></ul></li><li>城域网MAN 介于广域网与局域网之间<ul><li>设计一个宽带城域网设计“三个平台和一个出口”，即网络平台、业务平台、管理平台与城市宽带出口<br><img src="/2019/08/21/NCRE/1.png" alt="picture"></li></ul></li><li>广域网 更大，覆盖更远（广域网不一定是Internet）</li></ul></li></ol></blockquote><blockquote><ol start="2"><li>中小型网络总体设计与规划</li><li>局域网技术</li><li>无线局域网技术</li><li>网络管理技术（综合题）</li></ol></blockquote><hr>]]></content>
+    <content type="html"><![CDATA[<h1 id="NCRE三级网络技术"><a href="#NCRE三级网络技术" class="headerlink" title="NCRE三级网络技术"></a>NCRE三级网络技术</h1><p>笔记总结</p><a id="more"></a><hr><h2 id="重点："><a href="#重点：" class="headerlink" title="重点："></a>重点：</h2><blockquote><ol><li><strong>IP地址规划和设计方法</strong></li><li><strong>路由设计基础</strong></li><li><strong>交换机及其配置</strong></li><li><strong>路由器及其配置</strong></li><li><strong>计算机网络信息服务系统的安装与配置</strong></li><li><strong>网络安全技术（防火墙和入侵检测技术</strong></li></ol></blockquote><hr><h2 id="其他："><a href="#其他：" class="headerlink" title="其他："></a>其他：</h2><blockquote><ol><li>网络系统结构与设计的基本原则<ul><li>局域网LAN      <ul><li>有限，高数据传输效率（10Mbps-10Gbps），易于建立</li><li>分为共享式和交换式或有线与无线</li></ul></li><li>城域网MAN 介于广域网与局域网之间<ul><li>设计一个宽带城域网设计“三个平台和一个出口”，即网络平台、业务平台、管理平台与城市宽带出口<br><img src="/2019/08/21/NCRE/1.png" alt="picture"></li></ul></li><li>广域网 更大，覆盖更远（广域网不一定是Internet）</li><li>核心层（高速数据交换，提供路由服务） 汇聚层（路由与流量汇聚） 接入层（用户接入与本地流量控制）</li></ul></li></ol></blockquote><blockquote><ol start="2"><li>中小型网络总体设计与规划<ul><li>光以太网：以太网和DWDM  按需分配带宽，认证与授权，支持MPLS，计费，适用用户扩展 99.999%</li><li>弹性分组环技术，RPR双环结构（内环逆时针，外环顺时针），最大长度100km，自愈环功能（50ms隔离，恢复），<strong>时分</strong>多路复用，SRP公平算法</li></ul></li><li>局域网技术</li><li>无线局域网技术</li><li>网络管理技术（综合题）<ul><li>带内管理 汇聚层以下，传统的电信网络DCN和PSTN</li><li>带外管理 汇聚层及以上，利用IP网络协议，SNMP</li><li>QoS 资源预留RSVP，区分服务DiffServ，多协议标记交换MPLS</li></ul></li></ol></blockquote><hr>]]></content>
     
     <summary type="html">
     
