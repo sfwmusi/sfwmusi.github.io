@@ -1,5 +1,6 @@
 /*样式一*/
-
+/*<!-- 雪花特效 -->*/
+/*  在layout/layout.ejs最后加上后面的语句   <script type="text/javascript" src="\js\snow.js"></script>*/
 (function($){
 	$.fn.snow = function(options){
 	var $flake = $('<div id="snowbox" />').css({'position': 'absolute','z-index':'9999', 'top': '-50px'}).html('&#10052;'),
